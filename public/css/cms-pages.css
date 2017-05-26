@@ -1,0 +1,16 @@
+  .accordion-header-tinymce {
+    width: 100%;
+    text-align: left;
+    border-radius: 2px;
+    background-color: #0158bd !important;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .accordion-body-tinymce {
+    padding: 0 10px 16px;
+    margin-top: -12px;
+    border: 1px solid #B1B1B1;
+    background-color: #efefef;
+    margin-bottom: 10px;
+  }

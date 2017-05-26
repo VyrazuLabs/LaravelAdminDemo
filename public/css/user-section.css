@@ -1,0 +1,497 @@
+/*fonts section included*/
+
+@font-face{
+  font-family: 'SourceSansPro-regular';
+  src:url('../fonts/SourceSansPro-Regular.otf') format('truetype');
+}
+@font-face{
+  font-family: 'SourceSansPro-semibold';
+  src:url('../fonts/SourceSansPro-Semibold.otf') format('truetype');
+}
+@font-face{
+  font-family: 'SourceSansPro-ExtraLightIt';
+  src:url('../fonts/SourceSansPro-ExtraLightIt.otf') format('truetype');
+}
+@font-face{
+  font-family: 'NotoSansBengali-Bold';
+  src:url('../fonts/NotoSansBengali-Bold.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'NotoSansBengali-Regular';
+  src:url('../fonts/NotoSansBengali-Regular.ttf') format('truetype');
+}
+
+/*hall-booking-page*/
+#hall-booking.dataTable thead .sorting_asc:after{
+  display: none;
+}
+#hall-booking.dataTable thead .sorting:after{
+  display: none;
+}
+#hall-booking thead {
+  background-color: #3c8dbc;
+  color: #fff;
+  text-transform: uppercase;
+}
+#hall-booking.dataTable thead > tr > th{
+  padding: 8px;
+  text-align: center;
+  font-family: 'SourceSansPro-semibold';
+}
+#hall-booking{
+  text-align: center;
+  border: 1px solid #ddd;
+}
+#hall-booking>tbody>tr>td{
+  vertical-align: middle;
+  font-family: 'SourceSansPro-regular';
+}
+.btn-booking{
+    padding: 6px 20px;
+    margin-bottom: 5px;
+    font-family: 'SourceSansPro-semibold';
+ }
+textarea[type="text"]::-webkit-input-placeholder {
+    color:#27AE61;
+    font-family: 'SourceSansPro-ExtraLightIt';
+    font-size: 18px;
+}
+textarea[type="text"]:-moz-placeholder {
+    color:#27AE61;
+    font-family: 'SourceSansPro-ExtraLightIt';
+    font-size: 18px;
+}
+textarea[type="text"]::-moz-placeholder {
+    color:#27AE61;
+    font-family: 'SourceSansPro-ExtraLightIt';
+    font-size: 18px;
+}
+textarea[type="text"]:-ms-input-placeholder {
+    color:#27AE61;
+    font-family: 'SourceSansPro-ExtraLightIt';
+    font-size: 18px;
+}
+.owl-user-booking .owl-controls .owl-buttons{
+  display: none;
+}
+.hall-info-booking{
+  margin-top: 10px;
+}
+.open-hall-info{
+  padding : 25px;
+}
+/*hall entry*/
+.form-hall-entry{
+  padding: 10px 25px 25px;
+}
+.form-custom-group {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.modal-header .close span {
+    position: relative;
+    top: -8px;
+}
+.form-custom-group > label{
+  font-size: 16px;
+  font-family: 'SourceSansPro-semibold';
+  font-weight: normal;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.75);
+}
+.form-custom-group > label > span {
+  color: #27AE61;
+  font-family: 'NotoSansBengali-Regular';
+}
+
+/*complain box*/
+.captcha-refresh{
+  padding: 5px;
+  color: #27AE61;
+}
+.form-complain-box {
+    background: url(../img/dropdown.png) no-repeat right;
+    -webkit-appearance: none;
+}
+.box-custom-main{
+    border-top: none;
+    box-shadow: 1px 1px 10px #888;
+}
+.btn-complain{
+  margin-right: 25px;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Choose File';
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  font-family: 'SourceSansPro-regular';
+  border: 1px solid #888;
+  padding: 6px 12px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+/*volunteer page*/
+.submit-style{
+  font-size: 20px;
+  color: #3c8dbc;
+  margin-bottom: 25px;
+}
+
+.info-head-custom{
+  position: relative!important;
+  left: 0px!important;
+}
+/*
+find services,The popup of the map section*/
+.bodyContent{
+  width: 100%;
+  float: left;
+}
+.bodyContent > img{
+  width: 50%;
+  float: left;
+}
+.contentInfo{
+  width: 96%;
+  float: left;
+  padding: 10px;
+}
+.contentInfo > p{
+  color: #27ae61;
+  font-size: 13px;
+  font-family: 'SourceSansPro-regular';
+}
+.contentInfoSpan {
+  padding-top: 7px;
+}
+
+/*table responsive custom changes*/
+.table-responsive-custom div .row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/*apply job online*/
+.applied-job{
+  background: url(../img/applied_icon_with_text.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.upload-doc-sec {
+  background: #f7f7f7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 51px;
+    margin-bottom: 10px;
+}
+ul.upload-doc {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+ul.upload-doc li {
+    /*padding-left: 15px;*/
+    margin-top: 5px;
+}
+ul.upload-doc li a {
+  color: #696969;
+  display:block;
+  /*padding:5px 0 5px 15px;*/
+}
+.pdng-left0 {
+  padding-left: 0;
+}
+.ad-mrgn-top {
+  margin-top: 15px;
+}
+.mrng-left {
+  margin-left: 25px;
+}
+/*edit profile*/
+.forum-custom-box{
+  position: relative;
+}
+.forum-ab{
+  position: absolute;
+  top: -45px;
+  right: 15px;
+}
+/*generate the forms*/
+.form-generate {
+  padding: 0px 40px;
+}
+.btn-download {
+  background-color: #28AC3F;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'SourceSansPro-regular';
+}
+.recruitment-forms{
+  padding: 25px;
+  background-color: #f7f7f7;
+}
+.recruitment-header > p{
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.recruitment-header > div > p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+.recruitment-forms > h1{
+  font-size: 18px;
+  text-align: center;
+  color: #0158BD;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.recruitment-header > p:nth-child(2){
+  text-align: center;
+  text-decoration: underline;
+}
+.table-recruitment-form > thead > tr > th{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.table-recruitment-form > tbody > tr > td{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.recruitment-footer > p{
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.recruitment-footer > p:nth-child(2){
+  margin-bottom: 0px;
+}
+.recruitment-profoma > p{
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.recruitment-buttons{
+  padding: 25px 0px;
+}
+
+/*Auth :Ankita*/
+#profile-image{
+  width: 9%;
+  float: right;
+}
+.strong{
+      color: #a94442 !important;
+}
+.user-main-box {
+  height: 150px; 
+  overflow-y:scroll;
+}
+.user-box {
+  max-height: 150px;
+  /*overflow-y: scroll;*/
+}
+.alter-padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.alter-padding h4 {
+  margin-bottom: 5px;
+}
+.ad-shadow {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  border-top-color: #00C0EF !important;
+}
+.btn-center {
+  display: block;
+  margin:0 auto;
+}
+
+/*apply job page starts*/
+
+.apply-for-job {
+  margin-bottom: 3px !important;
+  text-align: left !important;
+  font-weight: 600; 
+}
+.photo-section {
+  position: absolute;
+      width: 100px;
+    height: 115px;
+  top: 5px;
+  right: 20px;
+  border: 1px solid #000;
+  font-size: 15px;
+  padding-top: 43px;
+  padding-left: 29px;
+}
+.apply-for-job-sub {
+  margin-bottom: 3px !important;
+  text-align: left !important; 
+  margin-top: 50px;
+  font-weight: 600;
+}
+.apply-for-job-sub span {
+  text-decoration: underline;
+}
+.apply-for-job-date {
+  text-align: left !important; 
+  margin-top: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.brief-description {
+  margin-bottom: 3px;
+  text-align: left;
+}
+.declaration {
+  font-weight: 600;
+  padding-left: 20px;
+  text-decoration: underline;
+  margin: 80px 0px 30px 0px; 
+}
+.application-date {
+  margin-top: 80px;
+  margin-bottom: 3px !important;
+}
+.application-date span {
+  text-align: right;
+  padding-right: 50px;
+  font-weight: 600;
+      display: inherit;
+}
+.application-note {
+  margin-top: 40%;
+  text-align: center;
+  margin-bottom: 3px !important;
+}
+.application-note span {
+  font-weight: 600;
+}
+.note1 {
+  margin-left: 35%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.dashboard-box {
+  border: 1px solid #000;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.dashboard-notification .notify-box {
+  
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+ -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+/*apply job page ends*/
+
+/* search job page starts */
+
+.search-job {
+  position: relative;
+  top: -40px;
+}
+.search-job input {
+  width: 100%;
+  height: 35px;
+  padding-left: 15px;
+  padding-right: 60px;
+}
+.search-job button {
+  position: absolute;
+  color: #222D32;
+}
+.btn-srch {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  height: 33px;
+  border-radius: 0;
+}
+.locate-me {
+  float: right;
+  display: inline;
+  position: relative;
+  top: -5px;
+}
+.content-middle{
+  display: flex;
+}
+.m-auto{
+  margin: auto;
+  width: auto;
+  padding: 50px;
+}
+.theme-text-color{
+  color: #3c8dbc;  
+}
+.custom-check{
+  color: #fff;
+  background: green;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  line-height: 80px;
+}
+.text-color-green{
+  color: rgb(0, 128, 0);
+}
+.font-weight-600{
+  font-weight: 600;
+}
+.error-no{
+  width: 100%;
+  display: block;
+}
+.ml-0{
+  margin-left: 0 !important;
+}
+.form-hall-book{
+  float: left;
+  display: block;
+  width: 100%;
+}
+.box-custom-main-payment{
+  padding: 0;
+  float: none;
+  border-radius: 3px;
+  background-color: #fff;
+  margin: auto;
+}
+/* New */
+.btn-modal-booking{
+  padding: 6px 20px;
+  margin-bottom: 0px;
+  font-family: 'SourceSansPro-semibold';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
